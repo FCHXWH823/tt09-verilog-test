@@ -36,6 +36,7 @@ module tt_um_example (
     input  wire       rst_n     // reset_n - low to reset
 );
 wire [7:0] sum, a, b;
+wire cout;
 wire cin = 1'b0;
 wire [7:0] c;
 wire [7:0] g, p;
